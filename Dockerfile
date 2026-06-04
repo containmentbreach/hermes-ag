@@ -6,5 +6,5 @@ uv pip install mnemosyne-hermes
 mnemosyne-install
 EOF
 
-ENTRYPOINT hermes
-CMD gateway run
+ENTRYPOINT ["hermes"]
+CMD ["gateway", "run"]
