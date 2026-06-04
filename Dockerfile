@@ -5,3 +5,6 @@ source /opt/hermes/.venv/bin/activate
 uv pip install mnemosyne-hermes
 mnemosyne-install
 EOF
+
+ENTRYPOINT hermes
+CMD gateway run
